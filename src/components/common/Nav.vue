@@ -22,8 +22,7 @@
                         <a
                             class="a"
                             :class="{
-                                current: deepEqual(subItem.query, query)
-                                    
+                                current: deepEqual(subItem.query, query),
                             }"
                             >{{ subItem.name }}
                         </a>
@@ -53,7 +52,6 @@ export default {
             path: '',
             query: {},
             deepEqual,
-            
         }
     },
     watch: {

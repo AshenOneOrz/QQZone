@@ -39,9 +39,10 @@ export default defineComponent({
 
 <style lang="less" scoped>
 .main {
-    width: 70%;
+    // width: 90%;
+    height: 100%;
+    // overflow: scroll;
     margin: 0 auto;
-    margin-bottom: 20px;
     padding: 20px;
     .head {
         display: flex;
