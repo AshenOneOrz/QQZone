@@ -4,6 +4,9 @@
             <h2>AshenOne<span> 的 </span>QQ<span> 空间 </span></h2>
         </div>
         <Nav />
+        <div class="copyright">
+            <p>© 2021 AshenOne</p>
+        </div>
     </header>
 </template>
 
@@ -27,6 +30,13 @@ export default defineComponent({
             font-size: 16px;
         }
     }
+}
+
+.copyright p {
+    margin-top: 20px;
+    color: dimgrey;
+    font-size: 10px;
+    font-family:Sans-Serif;
 }
 
 </style>
